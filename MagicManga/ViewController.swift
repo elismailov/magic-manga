@@ -44,7 +44,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         let node = SCNNode()
         
         if let imageAnchor = anchor as? ARImageAnchor {
-            let videoNode = SKVideoNode(fileNamed: "luffy.MP4")
+            let videoNode = SKVideoNode(fileNamed: "luffy.mp4")
             videoNode.play()
             let videoScene = SKScene(size: CGSize(width: 854, height: 480))
             videoNode.position = CGPoint(x: videoScene.size.width / 2, y: videoScene.size.height / 2)
