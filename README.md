@@ -3,5 +3,5 @@ This AR app tracks specific image and overlays Video on it. Replace the default 
 # Preview
 
 <p align="center">
-  <video src="luffy.MP4" alt="luffy" style="width: 30%;">
+  <video src="luffy.mp4" alt="luffy" style="width: 30%;">
 </p>
